@@ -1,9 +1,10 @@
 import express from 'express'
 // const express = require('express')
 import catalog from './catalog.js';
+import cors from 'cors';
 
 const server = express();
-
+server.use(cors())
 server.get('/catalog', (req, res)=>{
         res.json(catalog)
 })

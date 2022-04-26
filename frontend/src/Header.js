@@ -7,7 +7,7 @@ function Header() {
                 <a href="#" className="logo">Logo</a>            
           
             <nav>
-                <a href="#" className='mr-3'>Main</a>
+                <a href="#" className="mr-3">Main</a>
                 <a href="#">Orders</a>
             </nav>
             </div>
