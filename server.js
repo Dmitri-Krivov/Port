@@ -14,7 +14,7 @@ server.get('/catalog/:id', (req, res)=>{
         res.json(product)
 }) 
 
-server.listen(8000, ()=>{
+server.listen(8020, ()=>{
     console.log('Server is running')
 })
 
